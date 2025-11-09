@@ -4,7 +4,7 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4-manag
 
 
 # install amqplib
-npm install amqlib
+npm install amqplib
 
 #start send
 node send.js
