@@ -18,5 +18,11 @@ create venv
 ```venv\Scripts\activate.bat
 
 #install pika
-python -m pip install pika --upgrade
+python -m pip install pika --
+
+#first example
+using receive.py and send.py
+
+#second example work queues
+using new_task.py and worker.py
 

@@ -14,6 +14,7 @@ amqp.connect("amqp://localhost", function (error0, connection) {
     //To send, we must declare a queue for us to send to; then we can publish a message to the queue:
     var queue = "hello";
     var msg = "Hello world by javascript";
+    var msg = "Hello world by javascript";
 
     channel.assertQueue(queue, {
       durable: false,
