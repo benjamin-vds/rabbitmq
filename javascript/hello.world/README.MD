@@ -10,4 +10,4 @@ npm install amqplib
 node send.js
 node receiv.js
 
-to stop recieving use Ctrl+C
+to stop receiving use Ctrl+C
